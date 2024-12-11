@@ -1,4 +1,12 @@
 <html>
+
+    <?php
+    $mysqlClient = new PDO(
+	    'mysql:host=localhost;dbname=utilisateurs1;charset=utf8',
+	    'root',
+	    ''
+    );
+?>
     <head>
         <link rel="stylesheet" href="style.css">
     </head>
